@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Lugrasimo&display=swap');
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Lugrasimo", cursive;
+    text-decoration: none;
+    list-style: none;
+    scroll-behavior: smooth;
+}
+
+:root {
+    --bg-color: #ffffff;
+    --text-color: #121212;
+    --main-font: 2.2rem;
+    --p-font: 1.1rem;
+}
+
+body {
+    background: var(--bg-color);
+    color: var(--text-color);
+}
+
+header {
+    width: 100%;
+    top: 0;
+    right: 0;
+    z-index: 1000;
+    position: fixed;
+    background: var(--bg-color);
+    box-shadow: 0px 2px 18px 0 rgb(129 162 182 / 20%);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 25px 8%;
+    transition: .3s;
+
+}
+
+.logo {
+    color: var(--text-color);
+    font-size: var(--main-font);
+    font-weight: 600;
+    line-height: 0.8;
+}
+
+#menu-icon {
+    font-size: 38px;
+    color: var(--text-color);
+    z-index: 10001;
+    display: none;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+}
+
+.navbar a {
+    font-size: var(--p-font);
+    color: var(--text-color);
+    font-weight: 600;
+    padding: 10px 15px;
+    margin: 0 150px;
+    transition: all .40s ease;
+}
+
+.navbar a:hover {
+    background: var(--text-color);
+    color: #fff;
+}
+
+.navbar a:last-child {
+    margin-right: 0;
+    /* ยกเลิกการกำหนดระยะห่างขวาสุดของลิงก์ที่สุดท้าย */
+}
+
+.icons {
+    display: inline-block;
+}
+
+.icons i {
+    color: var(--text-color);
+    font-size: 24px;
+    margin-left: 15px;
+}
+
+.icons i :hover {
+    opacity: 0.7;
+}
+
+.maincontent {
+    background-color: gray;
+
+}
+
+.maincontent-con {
+    display: flex;
+}
+
+.maincontent-info {
+    width: 100%;
+    padding: 2rem;
+}
+
+.maincontent-info h3 {
+    font-size: 2rem;
+}
+
+.maincontent-info p {
+    margin: 1rem 0;
+}
+
+.maincontent-info .maincontent-btn {
+    background-color: orange;
+    color: gray;
+    padding: 1rem;
+    border-radius: 5 px;
+    text-decoration: none;
+    color: black;
+}
+
+.maincontent-img {
+    width: 70%;
+    padding: 0rem 5rem;
+
+}
+
+.containerpic1 {
+    margin: 0 auto;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    background: url(https://palanla.com/ckeditor/upload/files/id37/domestic_location/Ancient%20City-Samut%20Prakan/006.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    ;
+}
+
+.containerpic2 {
+    margin: 0 auto;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    background: url(https://img.kapook.com/u/2018/sutasinee/03/y7.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    ;
+}
