@@ -16,23 +16,23 @@
 <body class="text-center">
 
     <div class="form-login">
-        <form action="/" method="POST">
+        <form action="auth" method="post">
             <img src="https://www.iconpacks.net/icons/1/free-user-login-icon-305-thumb.png" alt="" height="300">
             <h1 class="mb-3">
                 Login
             </h1>
             <div class="form-floating mb-3">
-                <input type="email" name="username" class="form-control"  placeholder="name@example.com">
+                <input type="text" name="username" class="form-control"  placeholder="name@example.com" required>
                 <label for="floatingInput">Email address</label>
             </div>
             <div class="form-floating">
-                <input type="password" name="password" class="form-control"  placeholder="Password">
+                <input type="password" name="password" class="form-control"  placeholder="Password" required>
                 <label for="floatingPassword">Password</label>
             </div>
             <input type="submit" class="btn btn-primary w-100 mt-3" value="LOGIN">
         </form>
     </div>
-    <script src="login.js"></script>
+    
     <!-- Optional JavaScript; choose one of the two! -->
 
     <!-- Option 1: Bootstrap Bundle with Popper -->
