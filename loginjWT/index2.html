@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>travelmai</title>
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <nav>
+        <div class="container">
+            <h2>Travelmai</h2>
+            <div class="search-bar">
+                <i class="uil uil-search"></i>
+                <input type="search" placeholder="search">
+            </div>
+            <div class="container-fluid">
+                <div class="card" style="width: 18rem;">
+                    <img src="https://t3.ftcdn.net/jpg/05/53/79/60/360_F_553796090_XHrE6R9jwmBJUMo9HKl41hyHJ5gqt9oz.jpg"  width="50" id="avatar">
+                    <div class="card-body">
+                        <p class="card-text" id ="username">...</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <script src="login.js">
+    </script>
+    <!--classที่ให้แปะรูปเลื่อนค้าบอ้วง-->
+
+    <div class="slider-container">
+        <div class="slides">
+            <div class="slide">
+                <img src="https://www.tripgether.com/wp-content/uploads/2024/03/Littlehotelier-tripgether-1024x307.png"
+                    alt="Slide 1">
+            </div>
+            <div class="slide">
+                <img src="/รูป/009_kjawd (1).jpg" alt="Slide 2">
+
+            </div>
+            <div class="slide">
+                <img src="https://www.ktc.co.th/pub/media/Article/05/10-places-to-visit-in-bangkok-for-teenagers-1200x630.webp"
+                    alt="Slide 3">
+            </div>
+        </div>
+
+        <div class="slider-buttons">
+            <button class="btn" onclick="showSlide(1)"></button>
+            <button class="btn" onclick="showSlide(2)"></button>
+            <button class="btn" onclick="showSlide(3)"></button>
+        </div>
+
+
+    </div>
+    </section>
+    <!--ถึงนี้ค้าบอ้วง-->
+    <section class="navsecond">
+        <div class="navtwo">
+            <ul>
+                <li><a href="#">หน้าหลัก</a></li>
+                <li><a href="ที่กินแนะนำ.html">ที่กินแนะนำ</a></li>
+                <li><a href="#">ที่พักแนะนำ</a></li>
+                <li><a href="#">ที่เที่ยวแนะนำ</a></li>
+                <li><a href="#">อัปเดตเรื่องเที่ยว</a></li>
+                <li><a href="รวมดีลเรื่องเที่ยว.html">รวมดีลเรื่องเที่ยว</a></li>
+            </ul>
+        </div>
+
+    </section>
+    <section class="mapping">
+        <div class="map">
+            <iframe src="https://www.google.com/maps/d/embed?mid=1UZ5MgpV3JQnj_YQpu2YUUKeTckYUtSc&ehbc=2E312F"
+                width="800" height="600"></iframe>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
